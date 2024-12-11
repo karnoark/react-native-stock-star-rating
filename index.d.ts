@@ -12,7 +12,7 @@ declare module "react-native-stock-star-rating" {
     /**
      * Function to set the rating which will be stored in your local state
      */
-    setRating: React.Dispatch<React.SetStateAction<undefined>>;
+    setRating: React.Dispatch<React.SetStateAction<number | null>>;
 
     /**
      * Max number of stars to show (Default 5)
